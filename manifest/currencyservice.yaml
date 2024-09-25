@@ -51,7 +51,7 @@ spec:
               - all
           privileged: false
           # readOnlyRootFilesystem: true
-        image: public.ecr.aws/b1o7r7e0/currencyservice:aaaaaaaa
+        image: public.ecr.aws/b1o7r7e0/currencyservice:7a684f9684ec966adef2ff098c66c77b10c1feef
         ports:
         - name: grpc
           containerPort: 7000
